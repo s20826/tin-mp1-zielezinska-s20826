@@ -1,0 +1,133 @@
+{
+	"auth": {
+		"sign-in": "Log In",
+		"email": "Email:",
+		"password": "Password:",
+		"log-in": "Log In",
+		"register": "Sign Up",
+		"log-out": "Log Out",
+		"error": "The email address or password is invalid.",
+		"footer-log":"Log In"
+	},
+	"history":{
+		"main":"History",
+		"date":"Date",
+		"comment":"Info"
+	},
+	"main-page": {
+		"start": "MED-PET Veterinary Clinic",
+		"content": "Home Page",
+		"hello": "Welcome to the system MED-PET Veterinary Clinic!"
+	},
+	"nav": {
+		"main": "Home Page",
+		"animal": "Patients",
+		"client": "Clients",
+		"vet": "Vets",
+		"visit": "Visits"
+	},
+	"form-placeholder": {
+		"character": "znaków",
+		"email": "e.g name@domain.pl",
+		"choose-client": "-- Select a client --",
+		"choose-vet": "-- Select a vet --",
+		"choose-patient": "-- Select a patient --"
+	},
+	"animal": {
+		"pages": {
+			"list": "Patient list",
+			"new": "New patient",
+			"detail": {
+				"details": "Patient's details",
+				"visits": "Patient's visits"
+			},
+			"edit": "Patient edition",
+			"delete": "Do you really want to remove the patient?"
+		},
+		"fields": {
+			"name": "Name",
+			"species": "Species",
+			"breed": "Breed",
+			"weight": "Weight",
+			"birthDate": "Birth date",
+			"owner": "Owner"
+		},
+		"comment": {
+			"added": "A new patient has been added :)",
+			"edited": "Edited the patient :)",
+			"deleted": "Patient removed :("
+		}
+	},
+	"client": {
+		"pages": {
+			"list": "Client list",
+			"new": "New client",
+			"edit": "Patient edition",
+			"delete": "Do you really want to remove the client?"
+		},
+		"fields": {
+			"firstName": "First Name",
+			"lastName": "Last Name",
+			"email": "Email",
+			"phoneNumber": "Phone number"
+		},
+		"comment": {
+			"added": "A new client has been added :)",
+			"edited": "Edited the client :)",
+			"deleted": "Client removed :("
+		}
+	},
+	"vet": {
+		"pages": {
+			"list": "Vet list",
+			"new": "New vet",
+			"edit": "Vet edition",
+			"delete": "Do you really want to remove the vet?"
+		},
+		"fields": {
+			"firstName": "First Name",
+			"lastName": "Last Name",
+			"email": "Email",
+			"password": "Password"
+		},
+		"comment": {
+			"added": "A new vet has been added :)",
+			"edited": "Edited the vet :)",
+			"deleted": "Vet removed :("
+		}
+	},
+	"visit": {
+		"pages": {
+			"list": "Visit list",
+			"new": "New visit",
+			"edit": "Visit edition",
+			"delete": "Do you really want to remove the visit?"
+		},
+		"fields": {
+			"animal": "Patient",
+			"vet": "Vet",
+			"date": "Date",
+			"service": "Service",
+			"price": "Price"
+		},
+		"comment": {
+			"added": "A new visit has been added :)",
+			"edited": "Edited the visit :)",
+			"deleted": "Visit removed :("
+		}
+	},
+	"validationMessage": {
+		"fieldRequired": "The field is required",
+		"len_2_30": "The field should contain from 2 to 30 characters",
+		"len_2_500": "The field should contain from 2 to 500 characters",
+		"len_digit": "The field should be a number between 0.1 and 10,000",
+		"fieldPhone" :"The field should contain 9 characters",
+		"fieldEmail": "The field should contain a valid email address",
+		"filedNumber": "The field should be a number",
+		"fieldDate": "The date cannot be from the future",
+		"moreThenZero": "The field should be a number greater than 0"
+
+
+	}
+
+}

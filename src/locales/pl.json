@@ -1,0 +1,132 @@
+{
+	"auth": {
+		"sign-in": "Logowanie",
+		"email": "Email:",
+		"password": "Hasło:",
+		"log-in": "Zaloguj się",
+		"register": "Zarejestruj się",
+		"log-out": "Wyloguj się",
+		"error": "Nieprawidłowy adres email lub hasło",
+		"footer-log":"Logowanie"
+	},
+	"history":{
+		"main":"Historia",
+		"date":"Data",
+		"comment":"Info"
+	},
+	"main-page": {
+		"start": "MED-PET Veterinary Clinic",
+		"content": "Strona główna",
+		"hello": "Witaj w systemie MED-PET Veterinary Clinic!"
+	},
+	"nav": {
+		"main": "Strona główna",
+		"animal": "Pacjenci",
+		"client": "Klienci",
+		"vet": "Weterynarze",
+		"visit": "Wizyty"
+	},
+	"form-placeholder": {
+		"character": "znaków",
+		"email": "np. nazwa@domena.pl",
+		"choose-client": "-- Wybierz klienta --",
+		"choose-vet": "-- Wybierz weterynarza --",
+		"choose-patient": "-- Wybierz pacjenta --"
+		
+	},
+	"animal": {
+		"pages": {
+			"list": "Lista pacjentów",
+			"new": "Nowy pacjent",
+			"detail": {
+				"details": "Szegóły pacjenta",
+				"visits": "Wizyty pacjenta"
+			},
+			"edit": "Edycja pacjenta",
+			"delete": "Czy napewno chcesz usunąć pacjenta?",
+			"details": "Szczegóły pacjenta"
+		},
+		"fields": {
+			"name": "Nazwa",
+			"species": "Gatunek",
+			"breed": "Rasa",
+			"weight": "Waga",
+			"birthDate": "Data urodzenia",
+			"owner": "Właściciel"
+		},
+		"comment": {
+			"added": "Dodano nowego pacienta :)",
+			"edited": "Edytowano pacienta :)",
+			"deleted": "Usunięto pacienta :("
+		}
+	},
+	"client": {
+		"pages": {
+			"list": "Lista klientów",
+			"new": "Nowy klient",
+			"edit": "Edycja klienta",
+			"delete": "Czy napewno chcesz usunąć klienta?"
+		},
+		"fields": {
+			"firstName": "Imię",
+			"lastName": "Nazwisko",
+			"email": "Email",
+			"phoneNumber": "Numer telefonu"
+		},
+		"comment": {
+			"added": "Dodano nowego klienta :)",
+			"edited": "Edytowano klienta :)",
+			"deleted": "Usunięto klienta :("
+		}
+	},
+	"vet": {
+		"pages": {
+			"list": "Lista weterynarzy",
+			"new": "Nowy weterynarz",
+			"edit": "Edycja weterynarza",
+			"delete": "Czy napewno chcesz usunąć weterynarza?"
+		},
+		"fields": {
+			"firstName": "Imię",
+			"lastName": "Nazwisko",
+			"email": "Email",
+			"password": "Password"
+		},
+		"comment": {
+			"added": "Dodano nowego weterynarza :)",
+			"edited": "Edytowano weterynarza :)",
+			"deleted": "Usunięto weterynarza :("
+		}
+	},
+	"visit": {
+		"pages": {
+			"list": "Lista wizyt",
+			"new": "Nowa wizyta",
+			"edit": "Edycja wizyty",
+			"delete": "Czy napewno chcesz usunąć wizytę?"
+		},
+		"fields": {
+			"animal": "Pacjent",
+			"vet": "Weterynarz",
+			"date": "Data",
+			"service": "Usługa",
+			"price": "Cena"
+		},
+		"comment": {
+			"added": "Dodano nowego wizitę :)",
+			"edited": "Edytowano wizitę :)",
+			"deleted": "Usunięto wizitę :("
+		}
+	},
+	"validationMessage": {
+		"fieldRequired": "Pole jest wymagane",
+		"len_2_30": "Pole powinno zawierać od 2 do 30 znaków ",
+		"len_2_500": "Pole powinno zawierać od 2 do 500 znaków ",
+		"len_digit": "Pole powinno być liczbą w zakresie od 0.1 do 10 000",
+		"fieldPhone": "Pole powinno zawierać 9 znaków",
+		"fieldEmail": "Pole powinno zawierać prawidłowy adres email",
+		"filedNumber": "Pole powinno być liczbą",
+		"fieldDate": "Data nie może być z przyszłości",
+		"moreThenZero": "Pole powinno być liczbą większą od 0"
+	}
+}

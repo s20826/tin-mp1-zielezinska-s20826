@@ -1,0 +1,346 @@
+html {
+    background-color: #ecf0f1;
+    font-family: sans-serif;
+}
+
+body {
+  min-width: 360px;
+}
+
+header, 
+main, 
+footer {
+    background-color: white;
+}
+
+header,
+main,
+footer,
+nav {
+    margin: 1rem;
+}
+
+header, 
+footer {
+    background-color: #34495e; 
+    color: white;
+    padding: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #bdc3c7;
+    border-radius: 50px;
+
+}
+
+
+nav ul {
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    border-radius: 50px;
+
+}
+
+
+
+nav ul li a {
+    display: inline-block;
+    color: #2c3e50;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color:lightskyblue;
+    color: white;
+}
+nav ul li a.active {
+    background-color: lightskyblue;    
+    color: white;
+}
+main {
+    padding: 1.5rem;
+}
+
+footer {
+    text-align: center;
+}
+main h2 {
+    border-bottom: 2px solid #7f8c8d;
+    margin-bottom: 2rem;
+}
+.table-list {
+    text-align: center;
+    border-collapse: collapse;
+    color:#2c3e50;
+    width: 80%;
+}
+
+.table-list,
+.table-list th,
+.table-list td {
+    border-bottom: 1px solid #ddd;
+    padding: 7px;
+}
+.list-actions {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+.list-actions li {
+    display: inline-block;
+}
+
+.list-actions-button-details,
+.list-actions-button-edit,
+.list-actions-button-delete {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding: 0.25rem 0.5rem;
+}
+.list-actions-button-details,
+.list-actions-button-edit,
+.list-actions-button-delete,
+.button-add
+{
+    border: none;
+    border-radius: 5px;
+}
+.button-add {
+    padding: 0.5rem 1rem;
+}
+.list-actions-button-edit:hover,
+.button-add:hover {
+    color: lightskyblue;
+}
+.list-actions-button-details:hover .details-icon-color{
+    stroke: lightskyblue;
+}
+.list-actions-button-details:hover circle.dot{
+    fill: lightskyblue;
+}
+.list-actions-button-edit:hover .details-icon-color{
+    stroke: lightskyblue;
+}
+.button-add:hover .details-icon-color{
+    stroke: lightskyblue;
+}
+
+.list-actions-button-delete:hover .details-icon-color{
+    stroke: red;
+}
+
+.list-actions-button-delete:hover{
+    color: red;
+}
+button, 
+input, 
+select, 
+textarea { 
+    font-family: inherit; 
+    font-size: 100%; 
+    box-sizing: border-box; 
+    padding: 10;
+    margin: 10;
+} 
+textarea { 
+    overflow: auto; 
+}
+.form {
+    display: grid;
+    grid-template-columns: 150px 300px 1fr;
+    gap: 1rem;
+}
+.form select, 
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="tel"],
+.form input[type="date"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="datetime-local"]{
+    border: 3px solid lightskyblue;
+    color:#2c3e50;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 100%;
+}
+.form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5em;
+}
+.symbol-required {
+    color: #c0392b;
+}
+.loginErrors{
+    color: #c0392b;
+}
+.form-buttons {
+ grid-column: 1/span 2;
+ margin-left: 4cm;
+}
+.form-buttons-auth {
+    grid-column: 1;
+    margin-left: 4cm;
+}
+.log-button{
+    margin-bottom: 0.2cm;
+}
+
+
+.form-actions-button-submit,
+.form-actions-button-cancel{
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border:none;
+    Background-color: inherit;
+}
+
+.form-actions-button-submit:hover .details-icon-color{
+    stroke: lightskyblue;
+}
+.form-actions-button-cancel:hover .details-icon-color{
+    stroke: red;
+}
+
+.form input.error-input,
+.form select.error-input{
+    border: 3px solid red;
+}
+.errors-text{
+    display: block;
+    font-size: 0.85em;
+    line-height: 2.25rem;
+    margin-top: 0.5em;
+    color: red;
+}
+
+.loggoutButton{
+    color: aliceblue;
+}
+.container {
+    position: relative;
+}
+
+.loggedButton{
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
+
+/* może usunąć moze nie to u góry
+input:invalid + span::after,
+select:invalid + span::after
+{
+    content: 'Pole jest wymagane';
+}*/
+#hideMe {
+    -webkit-animation: cssAnimation 0s ease-in 3s forwards;    
+    animation: cssAnimation 0s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    margin-top: 5mm;
+    font-size: 5mm;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+
+@media all and (max-width: 720px){
+    header{
+        flex-direction: column;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    header img{
+        align-self: center;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+    }
+
+    nav ul li{
+        flex-basis: 50%;
+        text-align: center;
+    }
+    nav ul li a{
+        display: block;
+    }
+    .form{
+        grid-template-columns: 1fr;
+        row-gap: unset;
+        margin-left: unset;
+    }
+    .form-buttons{
+        grid-column: 1/1;
+        margin-left: 0;
+    }
+      .table-list{
+        text-align: center;
+        border-spacing: 0;
+        width: 100%;
+      }
+      
+      th {
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        width: 95px;
+      }
+     
+      
+      th:first-child {
+        height: 100px;
+      }
+      th:not(:first-child) {
+        height: 10px;
+      }
+      
+      td:nth-child(2), td:nth-child(3), td:nth-child(4) {
+        width: 10px;
+      }     
+}
+@media all and (max-width: 520px){
+    body,
+    nav,
+    nav ul,
+    header,
+    main,
+    footer{
+        margin: 0;
+    }
+    nav ul li a{
+        flex-basis: 100%;
+    }
+   
+    nav{
+        border-radius: 0px;
+    }
+    nav ul {
+        border-radius: 0px;
+    }
+    
+}
